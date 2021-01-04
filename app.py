@@ -115,4 +115,4 @@ def detect_object(path, filename):
 #     return send_from_directory(app.config['DOWNLOAD_FOLDER'], filename, as_attachment=True)
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run()
